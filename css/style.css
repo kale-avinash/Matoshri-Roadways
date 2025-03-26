@@ -56,8 +56,13 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     transition: .5s;
+    color: #FFFFFF;
 }
-
+.btn:hover {
+    background-color: rgb(46,49,146); /* Change to your preferred color */
+    color: rgb(238,29,35); /* Text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
@@ -578,8 +583,9 @@ Our Customers/
 
 .card1:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: 1px solid  rgb(238,29,35);
+    box-shadow: 0 8px 16px rgb(238,29,35);
+    /* border: 1px solid  rgb(238,29,35); */
+    
     margin-right: 10px;
     margin-top: -5px;
 }
