@@ -619,7 +619,7 @@ Our Customers/
 }
 /* end about section */
 
-/* icon */
+/* WhatsApp Icon */
 .whatsapp-icon {
     position: fixed;
     right: 20px;
@@ -636,6 +636,8 @@ Our Customers/
     text-decoration: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    z-index: 9999; /* Ensures it's above all other elements */
+    pointer-events: auto; /* Ensures it remains clickable */
 }
 
 .whatsapp-icon:hover {
