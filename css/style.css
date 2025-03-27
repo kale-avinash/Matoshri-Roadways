@@ -644,3 +644,13 @@ Our Customers/
     transform: scale(1.1);
     background-color: #1ebe5d;
 }
+
+/* gallery */
+/* Image Zoom Effect */
+.position-relative img {
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+.position-relative:hover img {
+    transform: scale(1.1); /* Zoom in on hover */
+}
